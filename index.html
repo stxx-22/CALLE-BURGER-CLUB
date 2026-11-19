@@ -1,0 +1,399 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="CALLE Burger Club. Hamburguesas, salchipapas, perros calientes y mucho sabor callejero.">
+
+  <title>CALLE Burger Club | Street Food</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+  <!-- PROMOTIONAL BAR -->
+  <div class="promo-bar">
+    <p>🔥 EL HAMBRE NO ESPERA · PIDE ALGO BRUTAL 🔥</p>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-content">
+
+      <a href="#" class="logo">
+        <span class="logo-icon">C.</span>
+        <span class="logo-text">
+          CALLE
+          <small>BURGER CLUB</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="navLinks">
+        <a href="#inicio">INICIO</a>
+        <a href="#menu">MENÚ</a>
+        <a href="#promos">PROMOCIONES</a>
+        <a href="#nosotros">NOSOTROS</a>
+        <a href="#contacto">CONTACTO</a>
+      </nav>
+
+      <a href="#menu" class="header-order">
+        PEDIR AHORA
+        <i data-lucide="arrow-up-right"></i>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+
+      <div class="hero-noise"></div>
+
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+
+          <div class="hero-label">
+            <span></span>
+            STREET FOOD · HECHO CON ACTITUD
+          </div>
+
+          <h1>
+            EL HAMBRE
+            <span>SE QUITA</span>
+            <strong>CON ESTILO.</strong>
+          </h1>
+
+          <p class="hero-description">
+            Hamburguesas brutales, salchipapas cargadas y
+            combinaciones que no perdonan. Aquí se viene a comer rico.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#menu" class="btn-primary">
+              VER EL MENÚ
+              <i data-lucide="arrow-up-right"></i>
+            </a>
+
+            <a href="#promos" class="btn-secondary">
+              VER PROMOCIONES
+            </a>
+          </div>
+
+          <div class="hero-social-proof">
+            <div class="proof-avatars">
+              <span>🍔</span>
+              <span>🍟</span>
+              <span>🌭</span>
+            </div>
+
+            <p>
+              <strong>ANTOJOS SIN REGLAS</strong>
+              <small>El sabor habla por sí solo.</small>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="hero-visual">
+
+          <div class="hero-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1200&q=90"
+              alt="Hamburguesa artesanal con queso"
+            >
+          </div>
+
+          <div class="hero-sticker">
+            <span>100%</span>
+            <strong>ANTOJO</strong>
+            <small>ACTIVADO</small>
+          </div>
+
+          <div class="hero-floating-text">
+            NO ES COMIDA.
+            <span>ES ACTITUD.</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="hero-bottom-line">
+        <span>BURGERS</span>
+        <span>HOT DOGS</span>
+        <span>SALCHIPAPAS</span>
+        <span>MAZORCADAS</span>
+        <span>MUCHO SABOR</span>
+      </div>
+
+    </section>
+
+    <!-- MARQUEE -->
+    <section class="marquee">
+      <div class="marquee-track">
+        <span>🔥 MÁS QUESO</span>
+        <span>✦ MÁS SABOR</span>
+        <span>🔥 MÁS CALLE</span>
+        <span>✦ CERO ABURRIMIENTO</span>
+        <span>🔥 MÁS QUESO</span>
+        <span>✦ MÁS SABOR</span>
+        <span>🔥 MÁS CALLE</span>
+        <span>✦ CERO ABURRIMIENTO</span>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu-section section-padding" id="menu">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div>
+            <span class="section-kicker">AQUÍ MANDA EL ANTOJO</span>
+            <h2>EL MENÚ <span>BRUTAL.</span></h2>
+          </div>
+
+          <p>
+            No vengas con hambre pequeña.
+            Tenemos algo para cada antojo.
+          </p>
+
+        </div>
+
+        <div class="category-filters">
+
+          <button class="category-btn active" data-category="todos">
+            TODO
+          </button>
+
+          <button class="category-btn" data-category="hamburguesas">
+            🍔 HAMBURGUESAS
+          </button>
+
+          <button class="category-btn" data-category="salchipapas">
+            🍟 SALCHIPAPAS
+          </button>
+
+          <button class="category-btn" data-category="perros">
+            🌭 PERROS
+          </button>
+
+          <button class="category-btn" data-category="mazorcadas">
+            🌽 MAZORCADAS
+          </button>
+
+          <button class="category-btn" data-category="bebidas">
+            🥤 BEBIDAS
+          </button>
+
+        </div>
+
+        <div class="product-grid" id="productGrid">
+          <!-- Productos generados desde JavaScript -->
+        </div>
+
+        <div class="menu-bottom">
+          <p>¿SE TE HIZO AGUA LA BOCA?</p>
+          <a href="#contacto">
+            ENCUÉNTRANOS AQUÍ
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- PROMOTIONS -->
+    <section class="promo-section" id="promos">
+
+      <div class="container">
+
+        <div class="promo-card">
+
+          <div class="promo-content">
+
+            <span class="promo-label">⚡ ZONA DE ANTOJOS</span>
+
+            <h2>
+              LOS COMBOS
+              <span>QUE NO FALLAN.</span>
+            </h2>
+
+            <p>
+              Más comida, más sabor y más razones para compartir.
+              Descubre nuestras promociones.
+            </p>
+
+            <a href="#menu" class="btn-dark">
+              DESCUBRIR EL MENÚ
+              <i data-lucide="arrow-up-right"></i>
+            </a>
+
+          </div>
+
+          <div class="promo-image">
+            <img
+              src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=1000&q=85"
+              alt="Combo de hamburguesa y papas"
+              loading="lazy"
+            >
+            <div class="promo-stamp">MUCHO<br>SABOR<br>🔥</div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- WHY US -->
+    <section class="why-section section-padding" id="nosotros">
+
+      <div class="container">
+
+        <div class="why-heading">
+          <span class="section-kicker">NO SOMOS UNO MÁS</span>
+          <h2>LA CALLE TIENE <span>SU SABOR.</span></h2>
+          <p>
+            Buena comida, porciones generosas y ese sabor
+            que te hace volver por más.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <article class="feature-card">
+            <div class="feature-icon">🍔</div>
+            <h3>SABOR SIN CUENTO</h3>
+            <p>Combinaciones pensadas para disfrutar cada mordisco.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🔥</div>
+            <h3>HECHO AL MOMENTO</h3>
+            <p>El antojo merece comida preparada con cariño y actitud.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🤤</div>
+            <h3>PORCIONES BRUTALES</h3>
+            <p>Porque quedarse con hambre nunca ha sido el plan.</p>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section section-padding" id="contacto">
+
+      <div class="container contact-grid">
+
+        <div class="contact-content">
+
+          <span class="section-kicker">¿QUÉ ESPERAS?</span>
+
+          <h2>
+            EL ANTOJO
+            <span>NO SE NEGOCIA.</span>
+          </h2>
+
+          <p>
+            Escríbenos, pregunta por nuestras promociones
+            y disfruta de algo realmente bueno.
+          </p>
+
+          <a href="#" class="btn-primary whatsapp-link">
+            HABLAR POR WHATSAPP
+            <i data-lucide="message-circle"></i>
+          </a>
+
+        </div>
+
+        <div class="contact-details">
+
+          <div class="contact-item">
+            <i data-lucide="map-pin"></i>
+            <div>
+              <strong>ENCUÉNTRANOS</strong>
+              <span>Tu dirección aquí</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i data-lucide="clock"></i>
+            <div>
+              <strong>HORARIOS</strong>
+              <span>Consulta nuestros horarios</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i data-lucide="phone"></i>
+            <div>
+              <strong>CONTÁCTANOS</strong>
+              <span>Tu número aquí</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="container footer-content">
+
+      <a href="#" class="logo">
+        <span class="logo-icon">C.</span>
+        <span class="logo-text">
+          CALLE
+          <small>BURGER CLUB</small>
+        </span>
+      </a>
+
+      <p>EL SABOR DE LA CALLE, SIN COMPLICACIONES. 🔥</p>
+
+      <span>© <span id="currentYear"></span> CALLE BURGER CLUB</span>
+
+    </div>
+
+    <div class="footer-credit">
+      EXPERIENCIA WEB POR <strong>MORA WEB STUDIO</strong>
+    </div>
+
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="js/app.js"></script>
+
+</body>
+</html>
